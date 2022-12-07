@@ -9,11 +9,11 @@ import org.openqa.selenium.support.PageFactory;
  */
 public abstract class BasePO {
 
-    /*Drive-bas-que-será-usado-pelas-pages- */
+    /*Drive-base-que-será-usado-pelas-pages- */
     protected WebDriver driver;
 
     /*
-     * Contruto-base-para-criação-da-fabrica-de-elementos(pageFactory).
+     * Contrutor-base-para-criação-da-fabrica-de-elementos(pageFactory).
      * @param driver --Driver-da-pagin-atual.
      */
     protected BasePO(WebDriver driver){
